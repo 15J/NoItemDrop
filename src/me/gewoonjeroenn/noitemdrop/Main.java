@@ -20,7 +20,7 @@ public class Main extends JavaPlugin implements Listener{
 	
 	public void loadConfiguration(){
 	     getConfig().options().copyDefaults(true); 
-	     String[] list = {"world", "world", "world", "world"};
+	     String[] list = {"world"};
 	     getConfig().set("worlds", Arrays.asList(list));
 	     saveConfig();
 
